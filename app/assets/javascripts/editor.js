@@ -9,7 +9,6 @@ var editor = (function() {
 
 	function init() {
 		if ($('#zenpenbubble').length){
-			lastRange = 0;
 			bindElements();
 
 			// Set cursor position
